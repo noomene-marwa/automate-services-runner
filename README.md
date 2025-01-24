@@ -31,4 +31,5 @@ Logs the status of each service for easy monitoring.
 After starting the services, test them by visiting the localhost URL with the assigned ports:
 
 http://127.0.0.1:8000 
+
 http://127.0.0.1:8001
