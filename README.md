@@ -23,7 +23,8 @@ Logs the status of each service for easy monitoring.
     .\start_services.ps1 start
 2. Stop Services
    .\start_services.ps1 stop
-![image](https://github.com/user-attachments/assets/c14e8a50-8d83-4169-8816-090c12bf82bc)
+![image](https://github.com/user-attachments/assets/cee1a184-e7de-4af4-bce3-be6f5c81f75f)
+
 
 # Testing
 
