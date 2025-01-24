@@ -1,1 +1,33 @@
 # Automate-Services-Runner
+
+Automate Services Runner is a PowerShell script designed to streamline the management of Django microservices in a microservice architecture. Instead of running each service individually, this script automates the process of starting or stopping all services at once, making development and testing more efficient.
+
+# Features
+Start all Django microservices simultaneously.
+Stop all running services cleanly.
+Logs the status of each service for easy monitoring.
+
+
+# Installation and Setup
+
+1. Clone the repository:
+    git clone https://github.com/<your-repo-name>/automate-services-runner.git
+2. Navigate to the directory containing the script:
+    cd <YOUR_PROJECT_ROOT_PATH>\<FOLDER_NAME>
+3.Update the script with the root path and folder name in place of <YOUR_PROJECT_ROOT_PATH> and <FOLDER_NAME>.
+4.Ensure all microservice directories and the shared venv directory are correctly configured within the script.
+
+# Usage
+
+1. Start Services
+    .\start_services.ps1 start
+2. Stop Services
+   .\start_services.ps1 stop
+![image](https://github.com/user-attachments/assets/c14e8a50-8d83-4169-8816-090c12bf82bc)
+
+# Testing
+
+After starting the services, test them by visiting the localhost URL with the assigned ports:
+
+http://127.0.0.1:8000
+http://127.0.0.1:8001
