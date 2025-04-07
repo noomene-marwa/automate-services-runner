@@ -1,4 +1,4 @@
-# Automate-Services-Runner
+# automate-services-runner
 
 Automate Services Runner is a PowerShell script designed to streamline the management of Django microservices in a microservice architecture. Instead of running each service individually, this script automates the process of starting or stopping all services at once, making development and testing more efficient.
 
